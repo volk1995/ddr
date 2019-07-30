@@ -14,6 +14,10 @@
 	.small-1>p, .small-2>p{
 		margin:16px auto;
 	}
+	.billboard{
+		height: 225px;
+	}
+
 	
 }
 @media only screen and (max-width:660px){
@@ -31,19 +35,25 @@
 		margin:100px 30px 0 30px;
 		height:220px;
 	}
+	.bella-1{
+		margin:0 auto;
+		display: block;
+	}
+	.box{
+		text-align:center;
+	}
+	.menu_top{
+		margin: 0px;
+	}
 	
 }
 @media only screen and (max-width:500px){
-	.com2, .small-1, .small-2, .menu_top>img{
+	.com2, .small-1, .small-2{
 		margin:0;
 	}
 	.client1{
 		height:260px;
 	}
-	.box{
-		text-align:center;
-	}
-	
 	.services2:nth-of-type(1), .services2:nth-of-type(2), .services2:nth-of-type(3){
 		margin:0 auto;
 		height:250px;
@@ -55,7 +65,25 @@
 	.billboard {
 		height:200px;
 	}
-	.menu_top>img{
-		margin-top:10px;
+}
+@media only screen and (max-width:330px){
+	.box{
+		padding: 0px;
+	}
+	.com2>img, .com3{
+		width: 90%;
+	}
+	.client2{
+		margin:100px 0 0 0;
+	}
+	.small-1>img, .small-2>img{
+		width: 90%;
+	}
+	.small-1, .small-2{
+		padding:50px 0 0 0
+	}
+	.footer{
+		margin: 0;
+		padding: 50px 0 0 0;
 	}
 }
