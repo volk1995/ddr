@@ -1,4 +1,4 @@
-﻿body{
+body{
 	width:100%;
 	height:100%;
 	margin:0;
@@ -10,17 +10,13 @@
 .box{
 	margin:0 auto;
 	max-width:680px;
-	padding:1px;
-	padding-left:15px;
-	padding-right:15px;
+	padding:1px 15px 1px 15px;
 
 }
 .menu{
 	margin:0;
-	/* padding:0; */
+	padding:15px 0 15px;
 	display:inline-block;
-	padding-top:15px;
-	padding-bottom:15px;
 }
 .menu>li{
 	width:75px;
@@ -34,7 +30,7 @@
 }
 .bella-1{
 	display:inline-block;
-	margin-right:100px;
+	margin-right:140px;
 }
 .billboard{
 	position:relative;
@@ -152,23 +148,17 @@ button{
 .client2>img{
 	margin-left:15px;
 }
-.small-1>p{
+.small-1>p, .small-2>p{
 	display:block;
 	width:300px;
 }
-.small-2>p{
-	display:block;
-	width:300px;
-}
+
 .small-1, .small-2{
 	display:inline-block;
 	margin-top:50px;
 	margin-left:30px;
 }
-.small-1>img{
-	width:300px;
-}
-.small-2>img{
+.small-1>img, .small-2>img{
 	width:300px;
 }
 .text_cent{
@@ -206,8 +196,7 @@ footer{
 }
 .menu_bottom{
 	margin:0;
-    padding-left:0px;
-	padding-top:25px;
+    padding:25px 0 0 0;
 }
 .menu_bottom>li{
 	width:90px;
